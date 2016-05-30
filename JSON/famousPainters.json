@@ -1,0 +1,54 @@
+{
+	"famousPainters": [
+		{
+			"name": "Michelangelo",
+			"style": "Renaissance",
+            "portrait": "images/michelangelo.jpg",
+            "biography": "Michelangelo di Lodovico Buonarroti Simoni (March 1475 – 18 February 1564), was an Italian sculptor, painter, architect, poet, and engineer of the High Renaissance who exerted an unparalleled influence on the development of Western art. Considered to be the greatest living artist during his lifetime, he has since also been described as one of the greatest artists of all time. Despite making few forays beyond the arts, his versatility in the disciplines he took up was of such a high order that he is often considered a contender for the title of the archetypal Renaissance man, along with contemporary rival and fellow Florentine Medici client, Leonardo da Vinci.",
+			"examples": [ {"title": "David", "imageUrl":"images/david.jpg"},
+                          {"title": "Sistine Chapel", "imageUrl":"images/sistine_chapel.jpg"},
+                          {"title": "The Last Judgement", "imageUrl":"images/last_judgement.jpg"}
+                        ]
+		},
+        {
+            "name": "Raphael",
+            "style": "Renaissance",
+            "portrait": "images/raphael.jpg",
+            "biography":"Raffaello Sanzio da Urbino (April 6 or March 28, 1483 – April 6, 1520), known as Raphael, was an Italian painter and architect of the High Renaissance. His work is admired for its clarity of form, ease of composition, and visual achievement of the Neoplatonic ideal of human grandeur. Together with Michelangelo and Leonardo da Vinci, he forms the traditional trinity of great masters of that period.",
+            "examples": [ {"title": "School at Athens", "imageUrl":"images/schoolofathens.jpg"},
+                          {"title": "Lucretia", "imageUrl":"images/lucretia.jpg"},
+                          {"title": "Saint George and the Dragon", "imageUrl":"images/Saint_george_raphael.jpg"}
+            ]
+        },
+        {
+            "name": "Vincent van Gogh",
+            "style": "Post-Impressionist",
+            "portrait": "images/van-gogh.jpg",
+            "biography": "Vincent Willem van Gogh (30 March 1853 – 29 July 1890) was a Dutch post-Impressionist painter whose work had far-reaching influence on 20th-century art. His work includes portraits, self portraits, landscapes, still lifes, olive trees and cypresses, wheat fields and sunflowers. Critics largely ignored his work until after his presumed suicide in 1890. His short life, expressive and spontaneous use of vivid colours, broad oil brushstrokes and emotive subject matter, have led to his position in the public imagination as the quintessential misunderstood genius.",
+            "examples": [ {"title": "Self-portrait", "imageUrl":"images/selfportrait.jpg"},
+                          {"title": "The Starry Night", "imageUrl":"images/stary_night.jpg"},
+                          {"title": "The Yellow House", "imageUrl":"images/YellowHouse.jpg"}
+            ]
+        },
+        {
+            "name": "Claude Monet",
+            "style": "Impressionist",
+            "portrait": "images/monet.jpg",
+            "biography": "Oscar-Claude Monet; 14 November 1840 – 5 December 1926) was a founder of French Impressionist painting, and the most consistent and prolific practitioner of the movement's philosophy of expressing one's perceptions before nature, especially as applied to plein-air landscape painting.] The term 'Impressionism'is derived from the title of his painting Impression, soleil levant (Impression, Sunrise), which was exhibited in 1874 in the first of the independent exhibitions mounted by Monet and his associates as an alternative to the Salon de Paris.",
+            "examples": [ {"title": "Morning on the Seine", "imageUrl":"images/morning_seine.jpg"},
+                          {"title": "The Woman in the Green Dress", "imageUrl":"images/Woman-in-a-Green-Dress.jpg"},
+                          {"title": "Sunrise", "imageUrl":"images/sunrise.jpg"}
+            ]
+        },
+        {
+            "name": "Johannes Vermeer",
+            "style": "Baroque",
+            "portrait": "images/vermeer.jpg",
+            "biography": "Johannes, Jan or Johan Vermeer (April 1632 – December 1675) was a Dutch painter who specialized in domestic interior scenes of middle-class life. Vermeer was a moderately successful provincial genre painter in his lifetime. He evidently was not wealthy, leaving his wife and children in debt at his death, perhaps because he produced relatively few paintings.Ve rmeer worked slowly and with great care, and frequently used very expensive pigments. He is particularly renowned for his masterly treatment and use of light in his work.",
+            "examples":  [ {"title": "The Milkmaid", "imageUrl":"images/milkmaid.jpg"},
+                           {"title": "Girl with a Pearl Earring", "imageUrl":"images/Meisje_met_de_parel.jpg"},
+                           {"title": "The Music Lesson", "imageUrl":"images/music_lesson.jpg"}
+            ]
+        }
+	]
+}

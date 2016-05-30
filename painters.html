@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>TypeScript HTML App</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" type="text/css" />
+    <link href="styles/app.css" rel="stylesheet" />
+    <link href="styles/application.css" rel="stylesheet" />
+</head>
+
+<body ng-app="famousPainters" class="background-dark" style="margin:20px" ng-controller="PaintersController as vm">
+
+<div class="row">
+    <div class="col-xs-6 col-md-1"><img class="logoImg" src="images/brushW.png" />
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-11"><h1>Famous Painters</h1>
+        <select id="selection" ng-model="vm.selectedPainter" ng-options="painter.name for painter in vm.painters"></select></div>
+</div>
+<div class="row" ng-show="vm.selectedPainter != null">
+    <div class="col-xs-6 col-md-3">
+        <h3>{{vm.selectedPainter.name}}</h3><br/>
+        <img src="{{vm.selectedPainter.portrait}}" width="256px" height="320px" />
+        <h3>Style</h3>
+        <p style="font-size:14px;"><strong>{{vm.selectedPainter.style}}</strong></p>
+
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-9"> <h3>Artwork</h3>
+        <table>
+            <tr>
+                <td class="gridcell" ng-repeat="str in vm.selectedPainter.examples">{{str.title}}<br/>
+                    <img src="{{str.imageUrl}}" /></td>
+            </tr>
+        </table>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-12"> <h3>Biography</h3><p style="font-size:14px;">{{vm.selectedPainter.biography}}</p></div>
+
+
+    <div ng-show="vm.selectedPainter == null">
+        Please select a painter to know more...
+    </div>
+</div>
+
+<script src="scripts/angular.js"></script>
+<script src="scripts/angular-resource.js"></script>
+<script src="scripts/app.js"></script>
+<script src="scripts/Painter/Painter.js"></script>
+<script src="scripts/Painter/PainterController.js"></script>
+<script src="scripts/Painter/PainterDataService.js"></script>
+</body>
+</html>
